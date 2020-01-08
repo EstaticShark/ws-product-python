@@ -1,32 +1,27 @@
-Work Sample for Product Aspect, Python Variant
----
+## Work Sample for Product Aspect, Python Variant
 
-[What is this for?](https://github.com/EQWorks/work-samples#what-is-this)
+### Who Am I? And What Would I Learn
 
-### Setup and Run
+I am a second year computer science student at University of Toronto looking for summer internships.
+I am looking to not only further my career as a software developer but to hone my programming skills
+via workplace environments and mentorship.
 
-The following are the recommended options, but you're free to use any means to get started.
+These sample problems were a great sign to me that I could learn a lot from working at EQ Works.
+I had never done React or Node.js beforehand, but as I worked on the sample problems, I found that
+each question presented a new type of problem or challenge that I had to overcome. Solving these
+problems with the new tools forced me to step out of my comfort zone and create solutions using an
+unfamiliar library. 
 
-#### Remote Option: Glitch.com
+For example I had selected the Python variant of the question due to my familiarity with the language,
+but since the data was retrieved through SQLAlchemy, also using Python, I had to figure out how
+to bring the data objects to React. Through documentation and Stackoverflow forums, I discovered the
+process of passing objects through the index.html template. The 4th question took the most time, as I 
+had to probe around the Postgres database to realize that poi_id columns existed for the events and stats
+data. Then the data had to be joined, and had to be filtered in a not-too-inefficient time. The map itself
+works, albeit that it contains a couple bugs, one of which involves needing to click the first marker twice.
 
-1. [![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/import/github/EQWorks/ws-product-python)
-2. Populate `.env` file with the environment variables given in the problem set we send to you through email
-3. Click on `Show Live` and you should see `Welcome to EQ Works 😎`
+Overall, I found the experience rather enjoyable. After picking up React I made some plans to overhaul my own 
+portfolio website with the library. I would love to be able to work on problems like this in the near future.
+I hope that we may be able to discuss this opportunity soon.
 
-#### Local Option 1: Python 3.6+
-
-1. Clone this repository
-2. Install Python level dependencies. `$ pipenv install` or `$ pip install -r requirements.txt`
-3. `$ pipenv run SQL_URI=<SQL connection URI> ./start.sh` where `SQL_URI` value should be given in the problem set we send to you through email
-4. Open your browser and point to `localhost:5000` and you should see `Welcome to EQ Works 😎`
-
-#### Local Option 2: Docker (`docker-compose` needed)
-
-1. Clone this repository
-2. Create and populate `.env` file with the environment variables given in the problem set we send to you through email
-3. `$ docker-compose up` (or `$ docker-compose up -d` to run as a daemon)
-4. Open your browser and point to `localhost:5000` and you should see `Welcome to EQ Works 😎`
-
-### Notes on working through the problems
-
-Make sure any additional Python level dependencies are properly added in `Pipfile`. We encourage a healthy mixture of your own implementations, and good choices of existing open-source libraries/tools. We will comment in the problems to indicate which ones cannot be solved purely through an off-the-shelf solution.
+Martin Chak

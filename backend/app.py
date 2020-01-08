@@ -29,15 +29,15 @@ def index():
     text = 'Welcome to EQ Works 😎<br/><br/>'
     
     text += 'Endpoints<br/>'
-    text += '/: You\'re already here 😁😁😁<br/>'
-    text += '/events/hourly: Events sorted by hour (Rate limited)<br/>'
-    text += '/events/daily: Events sorted by day (Rate limited)<br/>'
-    text += '/stats/hourly: Stats sorted by hour (Rate limited)<br/>'
-    text += '/stats/daily: Stats sorted by day (Rate limited)<br/>'
-    text += '/database: Query the database to look at tables and columns (Rate limited)<br/>'
-    text += '/visuals: UI interface for the data<br/><br/>'
+    text += '<a href="https://eqworks-product-application-.glitch.me/">/<a/>: You\'re already here 😁😁😁<br/>'
+    text += '<a href="https://eqworks-product-application-.glitch.me/events/hourly">/events/hourly</a>: Events sorted by hour (Rate limited)<br/>'
+    text += '<a href="https://eqworks-product-application-.glitch.me/events/daily">/events/daily</a>: Events sorted by day (Rate limited)<br/>'
+    text += '<a href="https://eqworks-product-application-.glitch.me/stats/hourly">/stats/hourly</a>: Stats sorted by hour (Rate limited)<br/>'
+    text += '<a href="https://eqworks-product-application-.glitch.me/stats/daily">/stats/daily</a>: Stats sorted by day (Rate limited)<br/>'
+    text += '<a href="https://eqworks-product-application-.glitch.me/database">/database</a>: Query the database to look at tables and columns (Rate limited)<br/>'
+    text += '<a href="https://eqworks-product-application-.glitch.me/visuals">/visuals</a>: UI interface for the data<br/><br/>'
     
-    text += 'Github link <a href="https://github.com/EstaticShark/ws-product-python">here</a><br/>'
+    text += 'Github link <a href="https://github.com/EstaticShark/ws-product-python" target="_blank">here</a><br/>'
     text += 'Short response provided via README.md in the above link'
     
     return text
